@@ -1,0 +1,21 @@
+ body{
+ margin: 10% 25%; 
+
+}
+
+table{
+    background-color: deepskyblue;
+}
+
+.centerBold{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#error{
+    border: none;
+    font-family: 'Trebuchet MS';
+    color: red;
+
+}

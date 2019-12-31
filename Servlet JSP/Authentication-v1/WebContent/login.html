@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form</title>
+<style type="text/css">
+body{
+background-image: linear-gradient(cyan, blue);
+background-repeat: no-repeat;
+background-size: contain;
+font-family: sans-serif;
+color:white;
+height:100vh;
+}
+
+
+[type = "submit"]{
+	background-color: black;
+	padding: 7px; 4px;
+	color : white;
+	border : 0px;
+	
+	
+	
+}
+
+{
+}
+</style>
+</head>
+<body>
+<h1>Form</h1>
+	<form action="login.do" id="frm" method="GET" >
+		<table>
+			<tr>
+				<td>Username</td>
+				<td><input type="text" name="username" id="username" autofocus > </td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" name="password" id="password" autofocus></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Login"></td>
+		</table>
+	</form>
+</body>
+</html>
